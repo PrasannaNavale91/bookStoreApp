@@ -18,11 +18,11 @@ const Banner = () => {
                         <input type="text" className="grow" placeholder="Email" />
                     </label>
                 </div>
-                <button className="btn mt-6 btn-secondary">Secondary</button>
+                <button className="btn mt-6 btn-secondary">Get Started</button>
             </div>
             
             <div className='w-full md:w-1/2 order-1 mt-12'>
-                <img src={banner} className='w-92 h-92' alt='banner-image' />
+                <img src={banner} className='md:w-[550px] md:h-[460px] md:ml-12' alt='banner-image' />
             </div>
         </div>
     </>
